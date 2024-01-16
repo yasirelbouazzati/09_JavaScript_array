@@ -9,5 +9,4 @@ describe("capitalizeMates function", () => {
 
     expect(result).toEqual(expectedOutput);
   });
-
 });

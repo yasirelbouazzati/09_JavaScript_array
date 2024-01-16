@@ -21,4 +21,4 @@ const feedMonkeys = function (fruit) {
   return monkeys;
 };
 
-export default feedMonkeys;
+export default feedMonkeys

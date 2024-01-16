@@ -5,3 +5,14 @@
  */
 
 const SECONDS = [2, 5, 100];
+
+
+
+function transformSecondsToWords(secondsArray) {
+  return secondsArray.map(seconds => String(seconds));
+}
+
+const transformedWords = transformSecondsToWords(SECONDS);
+console.log(transformedWords);
+
+export default transformSecondsToWords;

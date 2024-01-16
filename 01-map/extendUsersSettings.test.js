@@ -57,5 +57,5 @@ describe("extendUsersSettings function", () => {
     expect(result).toEqual(expectedOutput);
   });
 
-  // Add more test cases if needed
+  
 });

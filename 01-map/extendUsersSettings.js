@@ -64,7 +64,7 @@ const USERS = [
     }));
   }
 
-  // Example usage:
+ 
   const extendedUsers = extendUsersSettings(USERS);
   console.log(extendedUsers);
 

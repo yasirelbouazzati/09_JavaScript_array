@@ -6,4 +6,21 @@
  * expected: with 🍎 => ['🐒 🍎', '🦍 🍎', '🦧 🍎']
  */
 
+import { features } from "caniuse-lite";
+import feedMonkeys from "../00-imperative/js/feedMonkeys";
+
 const MONKEYS = ["🐒", "🦍", "🦧"];
+
+
+
+function extractVipsNames(fruit) {
+  const extractedNames = MONKEYS.map((monkey) => {
+    return `${monkey}  ${fruit}`;
+  });
+
+  return extractedNames;
+}
+
+
+export default feedMonkeys;
+

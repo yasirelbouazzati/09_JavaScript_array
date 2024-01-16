@@ -204,6 +204,15 @@
     "lint": "prettier . --check",
     "lint:fix": "prettier . --write"
   },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
   "author": "",
   "license": "ISC"
 }
