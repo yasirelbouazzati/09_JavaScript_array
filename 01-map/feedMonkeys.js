@@ -11,8 +11,6 @@ import feedMonkeys from "../00-imperative/js/feedMonkeys";
 
 const MONKEYS = ["🐒", "🦍", "🦧"];
 
-
-
 function extractVipsNames(fruit) {
   const extractedNames = MONKEYS.map((monkey) => {
     return `${monkey}  ${fruit}`;
@@ -21,6 +19,4 @@ function extractVipsNames(fruit) {
   return extractedNames;
 }
 
-
 export default feedMonkeys;
-

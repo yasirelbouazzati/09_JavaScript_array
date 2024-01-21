@@ -1,5 +1,3 @@
-
-
 import extendUsersSettings from "./extendUsersSettings";
 
 describe("extendUsersSettings function", () => {
@@ -56,6 +54,4 @@ describe("extendUsersSettings function", () => {
 
     expect(result).toEqual(expectedOutput);
   });
-
-  
 });

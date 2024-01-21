@@ -27,15 +27,12 @@ const VIPS = [
   },
 ];
 
-
 function extractVipsNames(VIPS) {
-  const extractedNames =  VIPS.map((vip) => {
+  const extractedNames = VIPS.map((vip) => {
     return vip.name;
   });
 
   return extractedNames;
 }
 
-
 export default extractVipsNames;
-

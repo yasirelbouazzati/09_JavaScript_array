@@ -18,6 +18,4 @@ describe("feedMonkeys function", () => {
 
     expect(result).toEqual(expectedOutput);
   });
-
-  
 });

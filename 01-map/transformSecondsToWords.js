@@ -6,10 +6,8 @@
 
 const SECONDS = [2, 5, 100];
 
-
-
 function transformSecondsToWords(secondsArray) {
-  return secondsArray.map(seconds => String(seconds));
+  return secondsArray.map((seconds) => String(seconds));
 }
 
 const transformedWords = transformSecondsToWords(SECONDS);

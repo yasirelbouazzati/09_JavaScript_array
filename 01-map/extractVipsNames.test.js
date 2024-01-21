@@ -16,6 +16,4 @@ describe("extractVipsNames function", () => {
 
     expect(result).toEqual(expectedOutput);
   });
-
-  
 });

@@ -9,6 +9,4 @@ describe("transformSecondsToWords function", () => {
 
     expect(result).toEqual(expectedOutput);
   });
-
-  
 });
