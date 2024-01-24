@@ -1,4 +1,5 @@
 import getEvensOnly from "./getEvensOnly.js";
+
 describe("Given getEvensOnly", () => {
   test("when an array of numbers is given as an argument, then the exected array should be returned ", () => {
     const COUNTERS = [2, 25, 43, 12, 67, 42, 28];

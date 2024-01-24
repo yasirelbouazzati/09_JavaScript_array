@@ -18,3 +18,14 @@ const VOTERS = [
   { name: "Jeff", age: 30, voted: true },
   { name: "Zack", age: 19, voted: false },
 ];
+
+function getTotalVoters(voters) {
+  const totalVoters = voters.filter((voter) => voter.voted).length;
+  return totalVoters;
+}
+
+const result = getTotalVoters(VOTERS);
+
+console.log(result);
+
+export default getTotalVoters;

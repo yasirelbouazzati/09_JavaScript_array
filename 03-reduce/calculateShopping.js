@@ -1,3 +1,9 @@
+/**
+ * Given 'WISHES' array, define function 'calculateShopping' to return how much it would cost to just buy everything at once.
+ *
+ * expected: 227005
+ */
+
 const WISHES = [
   { title: "Tesla Model S", price: 90000 },
   { title: "4 carat diamond ring", price: 45000 },
@@ -11,6 +17,8 @@ function calculateShopping(wishes) {
   return totalCost;
 }
 
-test("calculateShopping should return the correct total cost", () => {
-  expect(calculateShopping(WISHES)).toBe(227005);
-});
+const totalPrice = calculateShopping(WISHES);
+
+console.log(totalPrice);
+
+export default calculateShopping;
